@@ -52,23 +52,6 @@ The site includes a minimal Markdown parser that supports:
 }
 ```
 
-## Deployment to Cloudflare Pages
-
-1. **Push to Git**: Commit and push your code to a Git repository (GitHub, GitLab, etc.)
-
-2. **Connect to Cloudflare Pages**:
-   - Go to Cloudflare Dashboard → Pages
-   - Click "Create a project"
-   - Connect your Git repository
-   - Configure build settings:
-     - **Build command**: (leave empty - no build needed)
-     - **Build output directory**: `/` (root directory)
-     - **Root directory**: `/` (or your project folder if in a monorepo)
-
-3. **Deploy**: Cloudflare Pages will automatically deploy your static site
-
-That's it! Your blog will be live at `your-project.pages.dev`
-
 ## Local Development
 
 Simply open `index.html` in a web browser, or use a local server:
