@@ -52,6 +52,7 @@ The site includes a minimal Markdown parser that supports:
 }
 ```
 
+
 ## Local Development
 
 Simply open `index.html` in a web browser, or use a local server:
